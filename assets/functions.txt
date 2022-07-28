@@ -1,0 +1,35 @@
+// let nombres = ['Paco', 'Luis', 'Gerardo', 'Carlos'];
+
+// const addName = () => {
+//     const input = document.getElementById('inputnames').value; // toma el valor del input
+//     nombres.push(input);
+//     console.log(nombres);
+// }
+
+
+// const showNames = () => { // funcion para mostrar los nombres en una lista
+//     for (let nombre of revnombres){// ciclo for para iterar por cada nombre del arreglo
+//         console.log(nombre);
+//         const ulist = document.getElementById('mostrarNombres');
+//         const listElement = document.createElement('li');
+//         ulist.append(listElement);
+//         listElement.innerText = nombre;
+//     }
+//     console.log(nombres);
+// }
+
+// refreshNames.addEventListener('click', () => {
+//     /*if hay <li> borrarlos else nada
+//     otro arreglo con el operador ...    XXXXXX
+//     borrar por repeticion del arreglo mostrado en el html      XXXXXXX */
+//     for (let nombre of nombres){// ciclo for para iterar por cada nombre del arreglo
+//         console.log(nombre);
+//         const ulist = document.getElementById('mostrarNombres');
+//         const listElement = document.createElement('li');
+//         ulist.append(listElement);
+//         listElement.setAttribute('id','liNom');
+//         listElement.innerText = nombre;
+//     }
+// })
+
+// showNames();
